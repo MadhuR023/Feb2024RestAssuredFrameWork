@@ -1,0 +1,10 @@
+com\Qa\gorest\base\BaseTest.class
+com\Qa\gorest\pojo\CreateUserPojo.class
+com\Qa\gorest\configuration\ConfigurationManager.class
+com\Qa\gorest\client\RestClient.class
+com\Qa\gorest\utils\ExcelUtils.class
+com\Qa\gorest\frameworkexceptions\APIFrameWorkExceptions.class
+com\Qa\gorest\constants\APIConstants.class
+com\Qa\gorest\listners\ExtentReportListener.class
+com\Qa\gorest\pojo\User.class
+com\Qa\gorest\utils\StringUtils.class

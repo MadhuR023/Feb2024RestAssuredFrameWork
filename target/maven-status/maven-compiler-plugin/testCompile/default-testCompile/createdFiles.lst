@@ -1,0 +1,5 @@
+com\Qa\AmaedeusApi\tests\AmadeusAPITest.class
+com\Qa\circuitapi\tests\GetCircuitUserTest.class
+com\Qa\reqres\tests\GetReqResUsersTest.class
+com\Qa\gorest\tests\CreateUserTest.class
+com\Qa\gorest\tests\GetGoRestUserTest.class

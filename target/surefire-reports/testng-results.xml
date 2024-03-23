@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-22T22:21:13 IST" name="Suite" finished-at="2024-03-22T22:21:27 IST" duration-ms="14835">
+    <groups>
+    </groups>
+    <test started-at="2024-03-22T22:21:13 IST" name="ReqRes API Tests" finished-at="2024-03-22T22:21:20 IST" duration-ms="7157">
+      <class name="com.Qa.reqres.tests.GetReqResUsersTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Qa.reqres.tests.GetReqResUsersTest@600b9d27]" started-at="2024-03-22T22:21:13 IST" name="setUp" finished-at="2024-03-22T22:21:14 IST" duration-ms="1226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://reqres.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getUserSetup()[pri:0, instance:com.Qa.reqres.tests.GetReqResUsersTest@600b9d27]" started-at="2024-03-22T22:21:14 IST" name="getUserSetup" finished-at="2024-03-22T22:21:14 IST" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserSetup -->
+        <test-method signature="getAllUser()[pri:0, instance:com.Qa.reqres.tests.GetReqResUsersTest@600b9d27]" started-at="2024-03-22T22:21:14 IST" name="getAllUser" finished-at="2024-03-22T22:21:20 IST" duration-ms="5285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUser -->
+      </class> <!-- com.Qa.reqres.tests.GetReqResUsersTest -->
+    </test> <!-- ReqRes API Tests -->
+    <test started-at="2024-03-22T22:21:20 IST" name="Amadeus Flight API Tests" finished-at="2024-03-22T22:21:27 IST" duration-ms="7135">
+      <class name="com.Qa.AmaedeusApi.tests.AmadeusAPITest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Qa.AmaedeusApi.tests.AmadeusAPITest@68702e03]" started-at="2024-03-22T22:21:20 IST" name="setUp" finished-at="2024-03-22T22:21:20 IST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://test.api.amadeus.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getUserSetup(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Qa.AmaedeusApi.tests.AmadeusAPITest@68702e03]" started-at="2024-03-22T22:21:20 IST" name="getUserSetup" finished-at="2024-03-22T22:21:24 IST" duration-ms="3519" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://test.api.amadeus.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[client_credentials]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pT23dquAANgoStACzwiSUph2XtbznrXX]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9Q8IbL4o5Zjx4zgV]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserSetup -->
+        <test-method signature="getFlightDetails()[pri:0, instance:com.Qa.AmaedeusApi.tests.AmadeusAPITest@68702e03]" started-at="2024-03-22T22:21:24 IST" name="getFlightDetails" finished-at="2024-03-22T22:21:27 IST" duration-ms="3578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFlightDetails -->
+      </class> <!-- com.Qa.AmaedeusApi.tests.AmadeusAPITest -->
+    </test> <!-- Amadeus Flight API Tests -->
+  </suite> <!-- Suite -->
+</testng-results>
