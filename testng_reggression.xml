@@ -5,12 +5,7 @@
 		<listener class-name="com.Qa.gorest.listners.ExtentReportListener"/>
 	</listeners>
 	<!-- 
-	<test name="Go Rest Get API Test">
-		<parameter name="baseUri" value="https://gorest.co.in"></parameter>
-		<classes>
-		<class name="com.Qa.gorest.tests.GetGoRestUserTest" />
-		</classes>
-	</test>
+	
 	
 
 	<test name="Go Rest Create API Test">
@@ -29,6 +24,12 @@
 		</classes>
 	</test>  
 	-->
+	<test name="Go Rest Get API Test">
+		<parameter name="baseUri" value="https://gorest.co.in"></parameter>
+		<classes>
+		<class name="com.Qa.gorest.tests.GetGoRestUserTest" />
+		</classes>
+	</test>
 	
 	<test name="ReqRes API Tests">
 		<parameter name="baseUri" value="https://reqres.in/"></parameter>
@@ -47,6 +48,7 @@
 			<class name="com.Qa.AmaedeusApi.tests.AmadeusAPITest" />
 		</classes>
 	</test> 
-
+	
+	
   
 </suite> <!-- Suite -->

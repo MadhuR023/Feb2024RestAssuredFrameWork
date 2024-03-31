@@ -1,0 +1,1 @@
+{"uuid":"28452cfd-9de4-46e0-bebb-ca7dcc1bc535","name":"Go Rest Create API Test","children":["215a7dc7-09a4-43ef-bf1e-5c8624358c33"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1711866907645,"stop":1711866908123}],"afters":[],"start":1711866907621,"stop":1711866908509}

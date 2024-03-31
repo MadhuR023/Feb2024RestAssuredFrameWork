@@ -1,0 +1,1 @@
+{"uuid":"0e7dd70b-bd70-4144-85d7-3f802da5b04f","name":"Go Rest schema validation test","children":["11450d5f-26ff-4f55-8b61-1c6d274bb110"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1711435853004,"stop":1711435853636}],"afters":[],"start":1711435852973,"stop":1711435853955}
