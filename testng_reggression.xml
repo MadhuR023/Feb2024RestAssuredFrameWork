@@ -16,14 +16,14 @@
 	</test>
 	
 
-	
+	-->
 	<test name="Circuits API Tests">
 		<parameter name="baseUri" value="http://ergast.com"></parameter>
 		<classes>
 			<class name="com.Qa.circuitapi.tests.GetCircuitUserTest" />
 		</classes>
 	</test>  
-	-->
+	
 	<test name="Go Rest Get API Test">
 		<parameter name="baseUri" value="https://gorest.co.in"></parameter>
 		<classes>

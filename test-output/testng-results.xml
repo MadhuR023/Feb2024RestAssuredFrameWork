@@ -1,13 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-31T12:07:14 IST" name="Suite" finished-at="2024-03-31T12:07:24 IST" duration-ms="10412">
+  <suite started-at="2024-04-01T19:52:00 IST" name="Suite" finished-at="2024-04-01T19:52:12 IST" duration-ms="11759">
     <groups>
     </groups>
-    <test started-at="2024-03-31T12:07:14 IST" name="Go Rest Get API Test" finished-at="2024-03-31T12:07:19 IST" duration-ms="5005">
+    <test started-at="2024-04-01T19:52:00 IST" name="Circuits API Tests" finished-at="2024-04-01T19:52:04 IST" duration-ms="3796">
+      <class name="com.Qa.circuitapi.tests.GetCircuitUserTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Qa.circuitapi.tests.GetCircuitUserTest@5b07730f]" started-at="2024-04-01T19:52:00 IST" name="setUp" finished-at="2024-04-01T19:52:01 IST" duration-ms="547" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://ergast.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getUserSetup()[pri:0, instance:com.Qa.circuitapi.tests.GetCircuitUserTest@5b07730f]" started-at="2024-04-01T19:52:01 IST" name="getUserSetup" finished-at="2024-04-01T19:52:01 IST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserSetup -->
+        <test-method signature="getAllUser()[pri:0, instance:com.Qa.circuitapi.tests.GetCircuitUserTest@5b07730f]" started-at="2024-04-01T19:52:01 IST" name="getAllUser" finished-at="2024-04-01T19:52:04 IST" duration-ms="2977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUser -->
+      </class> <!-- com.Qa.circuitapi.tests.GetCircuitUserTest -->
+    </test> <!-- Circuits API Tests -->
+    <test started-at="2024-04-01T19:52:04 IST" name="Go Rest Get API Test" finished-at="2024-04-01T19:52:06 IST" duration-ms="1401">
       <class name="com.Qa.gorest.tests.GetGoRestUserTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Qa.gorest.tests.GetGoRestUserTest@a4b2d8f]" started-at="2024-03-31T12:07:14 IST" name="setUp" finished-at="2024-03-31T12:07:14 IST" duration-ms="522" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Qa.gorest.tests.GetGoRestUserTest@636e8cc]" started-at="2024-04-01T19:52:04 IST" name="setUp" finished-at="2024-04-01T19:52:04 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,35 +41,98 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="getUserSetup()[pri:0, instance:com.Qa.gorest.tests.GetGoRestUserTest@a4b2d8f]" started-at="2024-03-31T12:07:14 IST" name="getUserSetup" finished-at="2024-03-31T12:07:15 IST" duration-ms="187" status="PASS">
+        <test-method is-config="true" signature="getUserSetup()[pri:0, instance:com.Qa.gorest.tests.GetGoRestUserTest@636e8cc]" started-at="2024-04-01T19:52:04 IST" name="getUserSetup" finished-at="2024-04-01T19:52:04 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserSetup -->
-        <test-method signature="getAllUser()[pri:0, instance:com.Qa.gorest.tests.GetGoRestUserTest@a4b2d8f]" started-at="2024-03-31T12:07:15 IST" name="getAllUser" finished-at="2024-03-31T12:07:17 IST" duration-ms="2507" status="PASS">
+        <test-method signature="getAllUser()[pri:0, instance:com.Qa.gorest.tests.GetGoRestUserTest@636e8cc]" started-at="2024-04-01T19:52:04 IST" name="getAllUser" finished-at="2024-04-01T19:52:05 IST" duration-ms="723" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllUser -->
-        <test-method is-config="true" signature="getUserSetup()[pri:0, instance:com.Qa.gorest.tests.GetGoRestUserTest@a4b2d8f]" started-at="2024-03-31T12:07:17 IST" name="getUserSetup" finished-at="2024-03-31T12:07:17 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getUserSetup()[pri:0, instance:com.Qa.gorest.tests.GetGoRestUserTest@636e8cc]" started-at="2024-04-01T19:52:05 IST" name="getUserSetup" finished-at="2024-04-01T19:52:05 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserSetup -->
-        <test-method signature="getSingleUser()[pri:0, instance:com.Qa.gorest.tests.GetGoRestUserTest@a4b2d8f]" started-at="2024-03-31T12:07:17 IST" name="getSingleUser" finished-at="2024-03-31T12:07:18 IST" duration-ms="1063" status="PASS">
+        <test-method signature="getSingleUser()[pri:0, instance:com.Qa.gorest.tests.GetGoRestUserTest@636e8cc]" started-at="2024-04-01T19:52:05 IST" name="getSingleUser" finished-at="2024-04-01T19:52:05 IST" duration-ms="270" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <404>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <404>.
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at com.Qa.gorest.tests.GetGoRestUserTest.getSingleUser(GetGoRestUserTest.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSingleUser -->
-        <test-method is-config="true" signature="getUserSetup()[pri:0, instance:com.Qa.gorest.tests.GetGoRestUserTest@a4b2d8f]" started-at="2024-03-31T12:07:18 IST" name="getUserSetup" finished-at="2024-03-31T12:07:18 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="getUserSetup()[pri:0, instance:com.Qa.gorest.tests.GetGoRestUserTest@636e8cc]" started-at="2024-04-01T19:52:05 IST" name="getUserSetup" finished-at="2024-04-01T19:52:05 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserSetup -->
-        <test-method signature="getUsersWithQueryParam()[pri:0, instance:com.Qa.gorest.tests.GetGoRestUserTest@a4b2d8f]" started-at="2024-03-31T12:07:18 IST" name="getUsersWithQueryParam" finished-at="2024-03-31T12:07:19 IST" duration-ms="282" status="PASS">
+        <test-method signature="getUsersWithQueryParam()[pri:0, instance:com.Qa.gorest.tests.GetGoRestUserTest@636e8cc]" started-at="2024-04-01T19:52:05 IST" name="getUsersWithQueryParam" finished-at="2024-04-01T19:52:06 IST" duration-ms="349" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUsersWithQueryParam -->
       </class> <!-- com.Qa.gorest.tests.GetGoRestUserTest -->
     </test> <!-- Go Rest Get API Test -->
-    <test started-at="2024-03-31T12:07:19 IST" name="ReqRes API Tests" finished-at="2024-03-31T12:07:19 IST" duration-ms="208">
+    <test started-at="2024-04-01T19:52:06 IST" name="ReqRes API Tests" finished-at="2024-04-01T19:52:06 IST" duration-ms="172">
       <class name="com.Qa.reqres.tests.GetReqResUsersTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Qa.reqres.tests.GetReqResUsersTest@1eb6749b]" started-at="2024-03-31T12:07:19 IST" name="setUp" finished-at="2024-03-31T12:07:19 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Qa.reqres.tests.GetReqResUsersTest@1e1d3956]" started-at="2024-04-01T19:52:06 IST" name="setUp" finished-at="2024-04-01T19:52:06 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,19 +143,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="getUserSetup()[pri:0, instance:com.Qa.reqres.tests.GetReqResUsersTest@1eb6749b]" started-at="2024-03-31T12:07:19 IST" name="getUserSetup" finished-at="2024-03-31T12:07:19 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getUserSetup()[pri:0, instance:com.Qa.reqres.tests.GetReqResUsersTest@1e1d3956]" started-at="2024-04-01T19:52:06 IST" name="getUserSetup" finished-at="2024-04-01T19:52:06 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserSetup -->
-        <test-method signature="getAllUser()[pri:0, instance:com.Qa.reqres.tests.GetReqResUsersTest@1eb6749b]" started-at="2024-03-31T12:07:19 IST" name="getAllUser" finished-at="2024-03-31T12:07:19 IST" duration-ms="178" status="PASS">
+        <test-method signature="getAllUser()[pri:0, instance:com.Qa.reqres.tests.GetReqResUsersTest@1e1d3956]" started-at="2024-04-01T19:52:06 IST" name="getAllUser" finished-at="2024-04-01T19:52:06 IST" duration-ms="151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllUser -->
       </class> <!-- com.Qa.reqres.tests.GetReqResUsersTest -->
     </test> <!-- ReqRes API Tests -->
-    <test started-at="2024-03-31T12:07:19 IST" name="Amadeus Flight API Tests" finished-at="2024-03-31T12:07:24 IST" duration-ms="4816">
+    <test started-at="2024-04-01T19:52:06 IST" name="Amadeus Flight API Tests" finished-at="2024-04-01T19:52:12 IST" duration-ms="5915">
       <class name="com.Qa.AmaedeusApi.tests.AmadeusAPITest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Qa.AmaedeusApi.tests.AmadeusAPITest@4f2c9ba6]" started-at="2024-03-31T12:07:19 IST" name="setUp" finished-at="2024-03-31T12:07:19 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Qa.AmaedeusApi.tests.AmadeusAPITest@73db4768]" started-at="2024-04-01T19:52:06 IST" name="setUp" finished-at="2024-04-01T19:52:06 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -80,7 +166,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="getUserSetup(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Qa.AmaedeusApi.tests.AmadeusAPITest@4f2c9ba6]" started-at="2024-03-31T12:07:19 IST" name="getUserSetup" finished-at="2024-03-31T12:07:21 IST" duration-ms="1191" status="PASS">
+        <test-method is-config="true" signature="getUserSetup(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Qa.AmaedeusApi.tests.AmadeusAPITest@73db4768]" started-at="2024-04-01T19:52:06 IST" name="getUserSetup" finished-at="2024-04-01T19:52:08 IST" duration-ms="2242" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -106,7 +192,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserSetup -->
-        <test-method signature="getFlightDetails()[pri:0, instance:com.Qa.AmaedeusApi.tests.AmadeusAPITest@4f2c9ba6]" started-at="2024-03-31T12:07:21 IST" name="getFlightDetails" finished-at="2024-03-31T12:07:24 IST" duration-ms="3596" status="PASS">
+        <test-method signature="getFlightDetails()[pri:0, instance:com.Qa.AmaedeusApi.tests.AmadeusAPITest@73db4768]" started-at="2024-04-01T19:52:08 IST" name="getFlightDetails" finished-at="2024-04-01T19:52:12 IST" duration-ms="3530" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getFlightDetails -->

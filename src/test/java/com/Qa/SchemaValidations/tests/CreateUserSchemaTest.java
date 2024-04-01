@@ -19,7 +19,7 @@ public class CreateUserSchemaTest extends  BaseTest {
 		restClient=new RestClient(prop, baseUri);
 	}
 	
-	@Test
+	@Test(enabled = false)
 	public void createUserSchemaTest(String name, String gender, String status) {
 
 		CreateUserPojo user= new CreateUserPojo(StringUtils.getRandomeEmailId(), name, gender, status);

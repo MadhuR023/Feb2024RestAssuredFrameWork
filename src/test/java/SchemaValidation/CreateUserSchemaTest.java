@@ -1,6 +1,7 @@
 package SchemaValidation;
 
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
 import com.Qa.gorest.base.BaseTest;
 import com.Qa.gorest.client.RestClient;
@@ -17,7 +18,8 @@ public class CreateUserSchemaTest extends BaseTest {
 	public void getUserSetup() {
 		restClient=new RestClient(prop, baseUri);
 	}
-
+	
+	@Test(enabled = false)
 	public void createUserSchemaTest(String name, String gender, String status) {
 
 		CreateUserPojo user= new CreateUserPojo(StringUtils.getRandomeEmailId(), name, gender, status);

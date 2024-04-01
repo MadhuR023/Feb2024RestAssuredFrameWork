@@ -30,11 +30,11 @@ public class GetGoRestUserTest extends BaseTest{
 	
 	@Test
 	public void getSingleUser() {
-		restClient.get("/public/v2/users/6814204", true, true)
+		restClient.get("/public/v2/users/6814136", true, true)
 					.then().log().all()
 						.statusCode(200)
 							.and()	
-								.body("id", equalTo(6814204));
+								.body("id", equalTo(6814136));
 	}
 	
 	@Test
